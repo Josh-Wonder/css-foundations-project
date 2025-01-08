@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
     margin: 0px;
 }
+
+body > *{
+    font-family: Roboto;
+}
+/* section one styling */
 
 .section1{
     background-color: #1f2937;
@@ -16,67 +23,52 @@ nav{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    width: 60%;
-}
-
-.intro{
-    display: flex;
-    width: 60%;
-    margin-top: 90px;
-    justify-content: space-between;
-    /* align-items: center; */
-    /* flex-grow: 1; */
-    outline: 5px solid ;
-    padding: 10px;
+    width: 75%;
+    margin-top: 5px;
 }
 
 ul{
     display: flex;
     list-style: none;
     gap: 20px;
-    padding: 10px ;
 }
 
 a{
     text-decoration: none;
     font-size: 18px;
-    color: #E5e7eb;}
+    color: #E5e7eb;
+}
 
 .logo img{
     width: 100px;
     height: auto;
-    border-radius: 5%;
+    border-radius: 30%;
     padding: 10px 5px;
+}
+
+.intro{
+    display: flex;
+    width: 75%;
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bio{
+    width: 40%;
+    padding-top: 0px;
 }
 
 h1{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-}
-
-p{
-    font-size: 18px;
-    color: #E5e7eb;
     margin-top: 0px;
 }
 
-.image > img{
-    width: 400px;
-    height: auto;
-}
-
-.bio{
-    width: 40%;
-    /* outline: solid 2px red; */
-    padding-top: 0px;
-    outline: 5px solid ;
-
-}
-
-.image{
-    align-self: center;
-    outline: 5px solid ;
+.bio > p{
+    font-size: 18px;
+    color: #E5e7eb;
 }
 
 button{
@@ -86,5 +78,54 @@ button{
     font-size: 18px;
     font-weight: bold;
     color: white;
-    border-radius: 7%;
+    border-radius: 12%;
+}
+
+.image > img{
+    width: 400px;
+    height: auto;
+}
+
+
+/* section two styling */
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 40px auto;
+}
+
+.illustration{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.sample{
+    flex-basis: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sample > img{
+    width: 100%;
+    height: 200px;
+    outline: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.sample > p{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
 }
