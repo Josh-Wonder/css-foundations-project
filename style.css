@@ -141,7 +141,7 @@ h2{
     color: #1f2937;
     font-size: 36px;
     font-style:italic;
-    margin: 150px auto 0px;
+    margin: 140px auto 0px;
 }
 
 .minor{
@@ -149,4 +149,59 @@ h2{
     font-size: 24px;
     text-align: right;
     margin-top: 0px;
+}
+
+
+/* section 4 styling */
+.section4{
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subsect1{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    margin: 140px;
+    padding: 20px 50px;
+    gap: 300px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.text1{
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.text2{
+    margin-top: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.sign2{
+    color: white;
+    border-color: white;
+    border-width: 2.5px;
+    width: 150px;
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: #1f2937;
+}
+
+footer > p{
+    margin-top: 25px;
+    color: #f9faf8;
+    font-size: 18px;
 }
