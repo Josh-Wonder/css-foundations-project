@@ -166,10 +166,14 @@ h2{
     justify-content: center;
     align-items: center;
     margin: 140px;
-    padding: 20px 50px;
-    gap: 300px;
-    width: 60%;
+    padding: 20px 150px;
+    gap: 80px;
     border-radius: 10px;
+    width: 50%;
+}
+
+.text{
+    width: 60%;
 }
 
 .text1{
